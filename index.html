@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>某教学综合楼工程｜智慧技术交底</title>
+<style>
+:root{--bg:#f6f8fb;--card:#fff;--ink:#172033;--muted:#667085;--line:#d8dee9;--blue:#2563eb;--green:#12a66a;--amber:#d97706;--red:#dc2626;--shadow:0 12px 30px rgba(16,24,40,.08);--r:18px}*{box-sizing:border-box}body{margin:0;background:linear-gradient(180deg,#eef4ff 0,#f8fafc 280px);color:var(--ink);font-family:"Microsoft YaHei",system-ui,-apple-system,Segoe UI,sans-serif}.wrap{max-width:1180px;margin:0 auto;padding:28px 18px 56px}.top{display:flex;justify-content:space-between;gap:18px;align-items:flex-start;margin-bottom:20px}.brand{display:flex;gap:14px;align-items:center}.logo{width:52px;height:52px;border-radius:16px;background:#173b7a;color:#fff;display:grid;place-items:center;font-weight:800;font-size:20px;box-shadow:var(--shadow)}h1{font-size:30px;margin:0 0 8px;letter-spacing:.02em}.sub{color:var(--muted);line-height:1.7}.actions{display:flex;gap:10px;flex-wrap:wrap;justify-content:flex-end}.btn{border:1px solid var(--line);background:#fff;color:var(--ink);height:40px;padding:0 14px;border-radius:12px;cursor:pointer;font-weight:700}.btn.primary{background:var(--blue);border-color:var(--blue);color:#fff}.grid{display:grid;grid-template-columns:1.2fr .8fr;gap:18px}.card{background:var(--card);border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--shadow);padding:20px;margin-bottom:18px}.card h2{font-size:20px;margin:0 0 14px;display:flex;align-items:center;gap:8px}.tag{display:inline-flex;align-items:center;border-radius:999px;background:#eaf1ff;color:#1d4ed8;padding:5px 10px;font-size:12px;font-weight:700}.meta{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.field{border:1px solid var(--line);border-radius:14px;padding:10px 12px;background:#fbfcff}.field b{display:block;font-size:12px;color:var(--muted);margin-bottom:5px}.field span,.field input,.field textarea,.field select{font:inherit;color:var(--ink)}input,textarea,select{width:100%;border:0;background:transparent;outline:none}textarea{min-height:72px;resize:vertical}.steps{counter-reset:s;display:grid;gap:10px}.step{display:grid;grid-template-columns:38px 1fr;gap:10px;padding:12px;border:1px solid var(--line);border-radius:14px;background:#fff}.step:before{counter-increment:s;content:counter(s);width:32px;height:32px;border-radius:10px;background:#eef4ff;color:#1d4ed8;display:grid;place-items:center;font-weight:800}.step b{display:block;margin-bottom:4px}.list{display:grid;gap:10px}.item{padding:12px 14px;border-radius:14px;border:1px solid var(--line);background:#fff;line-height:1.7}.item strong{color:#0f3b78}.warn{border-color:#fed7aa;background:#fff7ed}.danger{border-color:#fecaca;background:#fff1f2}.ok{border-color:#bbf7d0;background:#f0fdf4}.check{display:flex;gap:10px;align-items:flex-start;padding:10px 0;border-bottom:1px dashed #e5e7eb}.check:last-child{border-bottom:0}.check input{width:20px;height:20px;flex:0 0 20px;margin-top:3px}.qrbox{display:grid;grid-template-columns:140px 1fr;gap:14px;align-items:center}.qr{width:140px;height:140px;background:#fff;border:8px solid #111;position:relative;image-rendering:pixelated}.qr:before,.qr:after{content:"";position:absolute;width:34px;height:34px;border:10px solid #111;background:#fff}.qr:before{left:10px;top:10px}.qr:after{right:10px;top:10px}.qr i{position:absolute;left:16px;bottom:16px;width:34px;height:34px;border:10px solid #111;background:#fff}.dots{position:absolute;inset:54px 18px 18px 54px;background:repeating-linear-gradient(90deg,#111 0 8px,transparent 8px 15px),repeating-linear-gradient(0deg,#111 0 8px,transparent 8px 15px);mix-blend-mode:multiply}.pillrow{display:flex;gap:8px;flex-wrap:wrap}.pill{padding:6px 10px;border-radius:999px;background:#f1f5f9;border:1px solid #e2e8f0;color:#475569;font-size:13px}.record{display:grid;gap:10px}.toast{position:fixed;right:18px;bottom:18px;background:#111827;color:#fff;padding:12px 16px;border-radius:12px;opacity:0;transform:translateY(12px);transition:.2s}.toast.show{opacity:1;transform:translateY(0)}@media(max-width:860px){.grid,.meta,.qrbox{grid-template-columns:1fr}.top{display:block}.actions{justify-content:flex-start;margin-top:14px}.qr{margin:auto}}@media print{body{background:#fff}.actions,.toast{display:none}.wrap{padding:0}.card{box-shadow:none;break-inside:avoid}.grid{display:block}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div class="brand"><div class="logo">交底</div><div><h1>某教学综合楼工程｜智慧技术交底</h1><div class="sub">适用于二维码交底、班组学习确认、现场检查反馈和资料归档。内容可打印，也可在移动端填写确认。</div></div></div>
+    <div class="actions"><button class="btn" onclick="window.print()">打印/导出PDF</button><button class="btn" onclick="exportRecord()">导出记录</button><button class="btn primary" onclick="saveRecord()">保存确认</button></div>
+  </header>
+
+  <section class="grid">
+    <main>
+      <div class="card"><h2>一、交底基本信息 <span class="tag">JD-004</span></h2>
+        <div class="meta">
+          <label class="field"><b>工程名称</b><span>某教学综合楼工程</span></label>
+          <label class="field"><b>交底名称</b><input id="title" value="机电管线综合与BIM模型交底"></label>
+          <label class="field"><b>交底部位</b><input id="part" value="一层走廊、智慧教室及设备用房"></label>
+          <label class="field"><b>交底对象</b><input id="team" value="机电分包、施工员、质量员、安全员、班组长"></label>
+          <label class="field"><b>交底日期</b><input id="date" type="date"></label>
+          <label class="field"><b>责任人</b><input id="owner" value="项目总工 / BIM工程师"></label>
+        </div>
+      </div>
+
+      <div class="card"><h2>二、施工准备与流程</h2><div class="steps">
+        <div class="step"><div><b>模型与图纸核对</b><span>核对建筑、结构、暖通、电气、给排水、消防、智能化模型与最新版施工图一致性。</span></div></div>
+        <div class="step"><div><b>管线综合排布</b><span>重点检查走廊、设备用房、卫生间、智慧教室等区域的风管、桥架、喷淋、给排水管线标高。</span></div></div>
+        <div class="step"><div><b>碰撞问题闭环</b><span>发现碰撞后在平台登记，明确责任专业、调整意见、设计确认和归档位置。</span></div></div>
+        <div class="step"><div><b>现场放线与样板确认</b><span>按BIM综合排布结果进行支吊架定位、预留洞复核和样板段施工确认。</span></div></div>
+        <div class="step"><div><b>过程检查与复核</b><span>施工过程中拍照上传，检查标高、间距、坡度、支吊架、防火封堵和成品保护。</span></div></div>
+      </div></div>
+
+      <div class="card"><h2>三、质量控制要点</h2><div class="list">
+        <div class="item ok"><strong>模型先行：</strong>未经BIM综合排布确认的密集管线区域，不得直接大面积施工。</div>
+        <div class="item"><strong>标高控制：</strong>走廊吊顶内管线应满足净高要求，风管、桥架、喷淋、灯具和检修口位置应协调一致。</div>
+        <div class="item"><strong>支吊架控制：</strong>支吊架位置、间距、规格应符合方案和规范要求，严禁随意固定在不允许部位。</div>
+        <div class="item"><strong>资料留痕：</strong>隐蔽验收、试压、绝缘测试、调试记录和现场照片应同步上传平台。</div>
+      </div></div>
+
+      <div class="card"><h2>四、安全与文明施工注意事项</h2><div class="list">
+        <div class="item danger"><strong>高处作业：</strong>登高作业必须使用合格操作平台，作业人员正确佩戴安全帽和安全带。</div>
+        <div class="item danger"><strong>临时用电：</strong>电动工具执行“一机一闸一漏一箱”，严禁私拉乱接。</div>
+        <div class="item warn"><strong>交叉作业：</strong>机电、装饰、消防等专业交叉施工时，应按平台协调结果分区、分时作业。</div>
+        <div class="item warn"><strong>校园施工：</strong>材料运输避开上课和师生通行高峰，减少噪声、扬尘和占道影响。</div>
+      </div></div>
+    </main>
+
+    <aside>
+      <div class="card"><h2>二维码交底入口</h2><div class="qrbox"><div class="qr"><i></i><div class="dots"></div></div><div><p class="sub">将本 HTML 部署或复制到项目平台后，可把页面链接生成二维码，张贴在样板区、作业面或班组学习区。</p><div class="pillrow"><span class="pill">移动端学习</span><span class="pill">签字确认</span><span class="pill">资料归档</span></div></div></div></div>
+      <div class="card"><h2>学习确认</h2><div id="checks">
+        <label class="check"><input type="checkbox"><span>已阅读交底基本信息和适用部位。</span></label>
+        <label class="check"><input type="checkbox"><span>已理解BIM管线综合排布和碰撞闭环要求。</span></label>
+        <label class="check"><input type="checkbox"><span>已掌握质量控制要点和验收资料要求。</span></label>
+        <label class="check"><input type="checkbox"><span>已了解高处作业、临电和交叉作业安全要求。</span></label>
+      </div></div>
+      <div class="card"><h2>确认与反馈记录</h2><div class="record">
+        <label class="field"><b>学习人/班组</b><input id="person" placeholder="填写姓名或班组"></label>
+        <label class="field"><b>岗位</b><select id="role"><option>班组长</option><option>施工员</option><option>质量员</option><option>安全员</option><option>BIM工程师</option><option>其他</option></select></label>
+        <label class="field"><b>现场反馈/疑问</b><textarea id="feedback" placeholder="如无问题，填写：已学习，无疑问。"></textarea></label>
+        <label class="field"><b>保存状态</b><span id="status">未保存</span></label>
+      </div></div>
+      <div class="card"><h2>归档说明</h2><p class="sub">建议归档路径：数字项目管理平台 / 技术交底 / 机电安装 / JD-004。导出的 JSON 可作为学习确认记录附件。</p></div>
+    </aside>
+  </section>
+</div><div class="toast" id="toast">已保存</div>
+<script>
+const ids=['title','part','team','date','owner','person','role','feedback'];
+document.getElementById('date').value ||= new Date().toISOString().slice(0,10);
+function data(){return Object.fromEntries(ids.map(id=>[id,document.getElementById(id).value]).concat([['checks',[...document.querySelectorAll('#checks input')].map(x=>x.checked)],['savedAt',new Date().toLocaleString()]]));}
+function saveRecord(){localStorage.setItem('briefingRecord',JSON.stringify(data(),null,2));document.getElementById('status').textContent='已保存：'+new Date().toLocaleString();toast('已保存学习确认记录');}
+function exportRecord(){const blob=new Blob([JSON.stringify(data(),null,2)],{type:'application/json'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='JD-004-智慧技术交底确认记录.json';a.click();URL.revokeObjectURL(a.href);}
+function toast(t){const el=document.getElementById('toast');el.textContent=t;el.classList.add('show');setTimeout(()=>el.classList.remove('show'),1800)}
+try{const old=JSON.parse(localStorage.getItem('briefingRecord')||'null');if(old){ids.forEach(id=>{if(old[id])document.getElementById(id).value=old[id]});[...document.querySelectorAll('#checks input')].forEach((x,i)=>x.checked=!!old.checks?.[i]);document.getElementById('status').textContent='已加载本机保存记录';}}catch(e){console.warn(e)}
+</script>
+</body></html>
